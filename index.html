@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gmail clone</title>
+  <link rel="stylesheet" href="/Assets/css/fontawesome/all.css">
+  <link rel="stylesheet" href="/Assets/css/style.css">
+</head>
+<body>
+  <!-- Header starts -->
+<header>
+  <div class="left-header">
+      <i class="fas fa-bars fa-fw"></i> &nbsp;
+      <a href="#inbox">
+        <img class="gb_tc" src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r2.png" srcset="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_2x_r2.png 2x ,https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_1x_r2.png 1x" alt="" aria-hidden="true" style="width:109px;height:40px">
+      </a>
+  </div>
+  
+  <div class="center-header">
+    <i class="fa fa-search"></i>
+       &nbsp; 
+       <input placeholder="search mail" type="text">
+        <i class="fa fa-sliders-h"></i>
+    </div>
+
+    <div class="right-header">
+      <i class="fa fa-question-circle fa-fw"></i>&nbsp;
+      <i class="fa fa-cog fa-fw"></i>&nbsp;
+      <i class="fa fa-user-circle fa-fw"></i>
+  </div>
+</header>
+
+<!-- main body starts -->
+<div class="main-body">
+  <!-- side bar starts -->
+  <div class="sidebar">
+    <button class="sidebar-compose">
+      <i class="fas fa-plus"></i>
+      compose</button>
+      <div class="sidebar-items sidebar-items-active">
+        <i class="fas fa-inbox"></i>
+        <h2>inbox</h2>
+      </div>
+      <div class="sidebar-items sidebar-items-active">
+        <i class="fas fa-star"></i>
+          <h2>Starred</h2>
+        </div>
+        <div class="sidebar-items sidebar-items-active">
+          <i class="fas fa-clock"></i>
+          <h2>Snooze</h2>
+        </div>
+      <div class="sidebar-items sidebar-items-active">
+        <i class="fas fa-angle-double-right"></i>
+        <h2>important</h2>
+      </div>
+      <div class="sidebar-items sidebar-items-active">
+        <i class="far fa-paper-plane"></i>
+        <h2>sent</h2>
+      </div>
+      <div class="sidebar-items sidebar-items-active">
+        <i class="fas fa-sticky-note"></i>
+        <h2>draft</h2>
+      </div>
+      <div class="sidebar-items sidebar-items-active">
+        <i class="fas fa-caret-down"></i>
+        <h2>More </h2>
+      </div>
+      <div class="sidebar-down">
+        <div class="sidebar-downicon">
+          <i class="fa fa-user"></i> &nbsp;
+          <i class="fa fa-video"></i>&nbsp;
+          <i class="fa fa-phone-alt"></i>&nbsp;
+        </div>
+      </div>
+  </div>
+ 
+  <!-- mailbox start -->
+  <div class="mailList">
+     <!-- setting start -->
+   <div class="mailList-settings">
+    <div class="mailList-settingsLeft">
+      <input type="checkbox"> &nbsp;
+      <i class="fa fa-caret-down fa-fw"></i> &nbsp;
+      <i class="fa fa-redo-alt fa-fw"></i>&nbsp;
+      <i class="fa fa-ellipsis-v fa-fw"></i>&nbsp;
+    </div>
+    <div class="mailList-settingsRight">&nbsp;
+      <i class="fa fa-chevron-left fa-fw"></i>&nbsp;
+      <i class="fa fa-chevron-right fa-fw"></i>&nbsp;
+      <i class="fa fa-keyboard fa-fw"></i>&nbsp;
+      <i class="fa fa-cog fa-fw"></i>&nbsp;
+    </div>
+  </div>
+  <!-- section start -->
+  <div class="mailList-sections">
+    <div class="section selected">
+      <i class="fa fa-inbox fa-fw "></i>&nbsp;
+      <h3>Primary</h3>
+    </div>
+    <div class="section">
+      <i class="fa fa-users fa-fw"></i>&nbsp;
+      <h3>social</h3>
+    </div>
+    <div class="section">
+      <i class="fa fa-tag fa-fw"></i>&nbsp;
+      <h3>Promotions</h3>
+    </div>
+  </div>
+  <!-- mailList row -->
+  <div class="mailList-list">
+    <!-- mail row starts -->
+    <div class="mailRow">
+      <div class="mailRow-options">
+        <input type="checkbox">&nbsp;
+        <i class="fa fa-star mailIcons"></i>&nbsp;
+        <i class="fa fa-location-arrow "></i>&nbsp;
+      </div>
+      <h3 class="mailRow-title">Google</h3>
+      <div class="mailRow-message">
+        <h4>
+          Your new otp
+          <span class="mailRow-description">expires in 5 minutes</span>
+        </h4>
+      </div>
+      <p class="mailRow-time">12:15pm
+      </p>
+    </div>
+    <!-- mail row starts -->
+    <div class="mailRow">
+      <div class="mailRow-options">
+        <input type="checkbox">&nbsp;
+        <i class="fa fa-star mailIcons"></i>&nbsp;
+        <i class="fa fa-location-arrow "></i>&nbsp;
+      </div>
+      <h3 class="mailRow-title">Google</h3>
+      <div class="mailRow-message">
+        <h4>
+          Your new otp
+          <span class="mailRow-description">expires in 5 minutes</span>
+        </h4>
+      </div>
+      <p class="mailRow-time">12:15pm
+      </p>
+    </div>
+    <!-- mail row starts -->
+    <div class="mailRow">
+      <div class="mailRow-options">
+        <input type="checkbox">&nbsp;
+        <i class="fa fa-star"></i>&nbsp;
+        <i class="fa fa-location-arrow "></i>&nbsp;
+      </div>
+      <h3 class="mailRow-title">Google</h3>
+      <div class="mailRow-message">
+        <h4>
+          Your new otp
+          <span class="mailRow-description">expires in 5 minutes</span>
+        </h4>
+      </div>
+      <p class="mailRow-time">12:15pm
+      </p>
+    </div>
+    <!-- mail row starts -->
+    <div class="mailRow">
+      <div class="mailRow-options">
+        <input type="checkbox">&nbsp;
+        <i class="fa fa-star mailIcons"></i>&nbsp;
+        <i class="fa fa-location-arrow "></i>&nbsp;
+      </div>
+      <h3 class="mailRow-title">Google</h3>
+      <div class="mailRow-message">
+        <h4>
+          Your new otp
+          <span class="mailRow-description">expires in 5 minutes</span>
+        </h4>
+      </div>
+      <p class="mailRow-time">12:15pm
+      </p>
+    </div>
+    <!-- mail row starts -->
+    <div class="mailRow">
+      <div class="mailRow-options">
+        <input type="checkbox">
+        <i class="far fa-star mailIcons"></i>
+        <i class="fas fa-location-arrow "></i>
+      </div>
+      <h3 class="mailRow-title">Google</h3>
+      <div class="mailRow-message">
+        <h4>
+          Your new otp
+          <span class="mailRow-description">expires in 5 minutes</span>
+        </h4>
+      </div>
+      <p class="mailRow-time">12:15pm
+      </p>
+    </div>
+    <!-- mail row starts -->
+    <div class="mailRow">
+      <div class="mailRow-options">
+        <input type="checkbox">
+        <i class="far fa-star mailIcons"></i>
+        <i class="fas fa-location-arrow "></i>
+      </div>
+      <h3 class="mailRow-title">Google</h3>
+      <div class="mailRow-message">
+        <h4>
+          Your new otp
+          <span class="mailRow-description">expires in 5 minutes</span>
+        </h4>
+      </div>
+      <p class="mailRow-time">12:15pm
+      </p>
+    </div>
+    <!-- mail row starts -->
+    <div class="mailRow">
+      <div class="mailRow-options">
+        <input type="checkbox">
+        <i class="far fa-star mailIcons"></i>
+        <i class="fas fa-location-arrow "></i>
+      </div>
+      <h3 class="mailRow-title">Google</h3>
+      <div class="mailRow-message">
+        <h4>
+          Your new otp
+          <span class="mailRow-description">expires in 5 minutes</span>
+        </h4>
+      </div>
+      <p class="mailRow-time">12:15pm
+      </p>
+    </div>
+    <!-- mail row starts -->
+    <div class="mailRow">
+      <div class="mailRow-options">
+        <input type="checkbox">
+        <i class="far fa-star mailIcons"></i>
+        <i class="fas fa-location-arrow "></i>
+      </div>
+      <h3 class="mailRow-title">Google</h3>
+      <div class="mailRow-message">
+        <h4>
+          Your new otp
+          <span class="mailRow-description">expires in 5 minutes</span>
+        </h4>
+      </div>
+      <p class="mailRow-time">12:15pm
+      </p>
+    </div>
+    <!-- mail row starts -->
+    <div class="mailRow">
+      <div class="mailRow-options">
+        <input type="checkbox">
+        <i class="far fa-star mailIcons"></i>
+        <i class="fas fa-location-arrow "></i>
+      </div>
+      <h3 class="mailRow-title">Google</h3>
+      <div class="mailRow-message">
+        <h4>
+          Your new otp
+          <span class="mailRow-description">expires in 5 minutes</span>
+        </h4>
+      </div>
+      <p class="mailRow-time">12:15pm
+      </p>
+    </div>
+    <!-- mail row starts -->
+    <div class="mailRow">
+      <div class="mailRow-options">
+        <input type="checkbox">
+        <i class="far fa-star mailIcons"></i>
+        <i class="fas fa-location-arrow "></i>
+      </div>
+      <h3 class="mailRow-title">Google</h3>
+      <div class="mailRow-message">
+        <h4>
+          Your new otp
+          <span class="mailRow-description">expires in 5 minutes</span>
+        </h4>
+      </div>
+      <p class="mailRow-time">12:15pm
+      </p>
+    </div>
+    <!-- mail row starts -->
+    <div class="mailRow">
+      <div class="mailRow-options">
+        <input type="checkbox">
+        <i class="far fa-star mailIcons"></i>
+        <i class="fas fa-location-arrow "></i>
+      </div>
+      <h3 class="mailRow-title">Google</h3>
+      <div class="mailRow-message">
+        <h4>
+          Your new otp
+          <span class="mailRow-description">expires in 5 minutes</span>
+        </h4>
+      </div>
+      <p class="mailRow-time">12:15pm
+      </p>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+  <script src="/Assets/js/fontawesome/all.js"></script>
+  <script src="/Assets/js/script.js"></script>
+</body>
+</html>
